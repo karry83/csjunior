@@ -33,9 +33,8 @@
   - what if their name consist of both Uper and Lower letter and numbers, with the length of less than 15?
       - size of target set vs
       - size of memory need to allocate?
-- 
 
-### - hash table in real engineer life
-  - redis:
+## One possible soltions to resovle the issue: hash table
+- 
 
         
