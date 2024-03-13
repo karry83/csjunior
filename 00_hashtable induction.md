@@ -1,4 +1,4 @@
-## excercise : Try to find the math test result for students
+## excercise : try to find the math test result for students
 - backgroud
   Molly's school recently publishe their middle term results, every students want to know their 
 - known facts
@@ -35,6 +35,26 @@
       - size of memory need to allocate?
 
 ## One possible soltions to resovle the issue: hash table
-- 
+- size of target set: U
+- size of acutal set: m, m much less than U
+- U-->m:
+- how to resolve conflicts:
+  - chaining
+  - open addressing
+- task1: using chaining to improve algorithm
+  - requirement: find the score of any student with 1s
+  - known facts
+    - the result is a list with two columns: student name and their scores
+    - size of list bigger than 1000,000
+    - download the data in [math result]()
+    - student name consist of lower english letters only, from 'a' to 'z'
+    - and there are no identical names
+    - the length of the student names <=15
+  - input:
+    - one line if string which tells the student name
+  - output:
+    - two line of decimals:
+      -  first line:score of the student
+      -  second line: time eclipsed in millimun second
 
         
