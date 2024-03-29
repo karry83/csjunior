@@ -1,3 +1,8 @@
+# overview
+- this chapter is about the basic algorithm of hash table
+- why we need to hash
+- how to hash
+- what is a better hash algorith
 ## excercise : try to find the math test result for students
 - backgroud
   Molly's school recently publishe their middle term results, every students want to know their 
@@ -31,7 +36,7 @@
 ## this is what we call direct addreessing
 - what is the limitable of algorithm?
   - what if their name consist of both Uper and Lower letter and numbers, with the length of less than 15?
-      - size of target set vs
+      - size of target set
       - size of memory need to allocate?
 
 ## One possible soltions to resovle the issue: hash table
@@ -56,5 +61,7 @@
     - two line of decimals:
       -  first line:score of the student
       -  second line: time eclipsed in millimun second
+  - [sample input](/test/hashtable.in)  
+- [Sample solutions](/src/hashatble.cpp)
 
         
