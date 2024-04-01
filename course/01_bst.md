@@ -1,38 +1,37 @@
 # overview
-- this chapter is about the basic algorithm of b-tree
-- why we need b-tree
-- what is the characteristic of btree
-- how to build a btree
-- main usage of btree
-## excercise 1: try to find the Xth min number out of one million int
+- this chapter is about the basic algorithm of binary search tree(bst for short), we may cover the following topic
+  - why we need b-tree
+  - what is the characteristic of btree
+  - how to build a btree
+  - main usage of btree
+## excercise 1: try to find the Xth least number out of one million int
 - backgroud
-  Molly's school recently publishe their middle term results, every students want to know their 
-- known facts
-  - the result is a list with two columns: student name and their scores
-  - size of list bigger than 100,000
-  - download the data in [math result]()
-  - student name consist of lower english letters only, from 'a' to 'u'
-  - and there are no identical names
-  - the length of the student names <=10
+  Molly's teacher recently published their maths results
+  there are 100,000 students in her school, each  student took the exam
+  result in [60,100]
+- input: 
+    - an int, which indicated the scored to be found under
+    - [math_result.in]()
+      - note: score in math_result.in is not sorted
+  - output:
+    - number of students who score less than input number
+
+## excercise 2: try to find the math test result for students
 -  task 1:
-  - requirement:try serveral different student name for test
-  - input:
-    - one line if string which tells the student name
+  - find the number of students less than [input number]
+  - input: 
+    - an int, which indicated the score to be found under
+    - [math_result.in]()
+      - note: score in math_result.in is not sorted, more than 100,000
   - output:
-    - two line of decimals:
-      -  first line:score of the student
-      -  second line: time eclipsed in millimun second
+    - number of students who score less than input number
 - task 2:
-  -  thinking : what decide the time eclipsed? randomly?
-  -  any way to improve the algorithm
-- task 3:
-  - requirement: find the score of any student with 1s
-  - input:
-    - one line if string which tells the student name
-  - output:
-    - two line of decimals:
-      -  first line:score of the student
-      -  second line: time eclipsed in millimun second
+  -  found the first number which is bigger than a input number
+  -  input:
+     -  an int, which you try to find 
+  -  output:
+     -  an int, which is the first nuber bigger than the input number
+
 
 ## using a binary search tree (bst for short)
 - what is binary search tree 

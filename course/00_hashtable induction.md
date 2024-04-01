@@ -5,25 +5,23 @@
 - what is a better hash algorith
 ## excercise : try to find the math test result for students
 - backgroud
-  Molly's school recently publishe their middle term results, every students want to know their 
-- known facts
-  - the result is a list with two columns: student name and their scores
-  - size of list bigger than 100,000
-  - download the data in [math result]()
-  - student name consist of lower english letters only, from 'a' to 'u'
-  - and there are no identical names
-  - the length of the student names <=10
+  Molly's teacher recently published their maths results
+  there are 100,000 students in her school, each  student took the exam
+  result in [60,100]
 -  task 1:
-  - requirement:try serveral different student name for test
-  - input:
-    - one line if string which tells the student name
+  - find the number of students less than [input number]
+  - input: 
+    - an int, which indicated the scored to be found under
+    - [math_result.in]()
+      - note: score in math_result.in is not sorted
   - output:
-    - two line of decimals:
-      -  first line:score of the student
-      -  second line: time eclipsed in millimun second
+    - number of students who score less than input number
 - task 2:
-  -  thinking : what decide the time eclipsed? randomly?
-  -  any way to improve the algorithm
+  -  found the first number which is bigger than a input number
+  -  input:
+     -  an int, which you try to find 
+  -  output:
+     -  an int, which is the first nuber bigger than the input number
 - task 3:
   - requirement: find the score of any student with 1s
   - input:
@@ -61,7 +59,7 @@
     - two line of decimals:
       -  first line:score of the student
       -  second line: time eclipsed in millimun second
-  - [sample input](/test/hashtable.in)  
-- [Sample solutions](/src/hashatble.cpp)
+  - [sample input](../test/hashtable.in)  
+- [Sample solutions](../src/hashatble.cpp)
 
         
