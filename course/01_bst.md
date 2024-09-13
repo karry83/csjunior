@@ -31,7 +31,25 @@
      -  an int, which you try to find 
   -  output:
      -  an int, which is the first nuber bigger than the input number
+- task 3:
+  - in the following program,will "node_count" works as it looks?
 
+```
+int node_count=0;
+  void print_sort(BST * root){
+    if(root->left!=NULL){
+      print_sort(root->left);
+      node_count++;//interesting error,program stack reference
+    }
+    cout<<root->key<<endl;
+    node_count++;
+    if(root->right!=NULL){
+      print_sort(root->right);
+      node_count++;
+    }
+  }
+
+```
 
 ## using a binary search tree (bst for short)
 - what is binary search tree 
@@ -42,7 +60,10 @@
 - character of bst
   - search 
     - average time complexity
-    - bs
+- Question:
+  - when BST works well than simple sort?
+  - when BST works best?
+  - for a keyset of {1,4,5,10,16,17,21}, draw a BST tree with depth 2,3,4,5,6
 - taks2 : using a bst to solve to excercise 1 
 
 ## improve  task 2
