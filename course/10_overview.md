@@ -22,14 +22,19 @@
 - 常量与变量的命名、定义及作用
 - 头文件与名字空间的概念
 - 编辑、编译、解释、调试的概念
-2. 基本数据类型
+2. 基本数据类型--0914
 - 整数型：int 、 long long
 - 实数型：float、 double
 - 字符型：char
 - 布尔型：bool
+- 数组： 长度自由指定
 3. 程序基本语句
-- cin 语句、scanf 语句、cout 语句、printf
- 语句、赋值语句、复合语句
+- cin 语句
+- scanf 语句
+- cout 语句
+- printf语句
+- 赋值语句
+- 复合语句
 - if 语句、switch 语句、多层条件语句
 - for 语句、while 语句、do while 语句
 - 多层循环语句
